@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+
+
+
+body {
+    font-family: "Kodchasan", system-ui;
+    background-color:#EFEEF3;
+ 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+header img {
+    max-height: 30px;
+    margin-right: 80px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+img[src*="BACKGROUND.png"] {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+.conteiner1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.conteiner1 img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 5vw;
+}
+
+.textcontainer1 {
+    max-width: 30vw;
+    margin-left: 20vw;
+}
+
+.textcontainer1 h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.textcontainer1 p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.conteiner2 {
+    text-align: left;
+}
+
+.conteiner2 h2 {
+    font-size: 1.5em;
+    margin-top: 10vw;
+}
+
+.imagenscontainer2 {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5vw;
+    margin-bottom: 50px;
+}
+
